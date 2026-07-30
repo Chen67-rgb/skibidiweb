@@ -2,7 +2,7 @@ databases:
   - name: chendb
     plan: free
     databaseName: chen
-    user: Yulian
+    user: yulian
 
 services:
   - type: web

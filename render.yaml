@@ -16,7 +16,7 @@ services:
         fromDatabase:
           name: chendb
           property: connectionString
-      - key: django-insecure-ruc7z#f9$mcmr915n$t6bovwj+7rnse5lcl=wjiqm*)*kut7@x
+      - key: SECRET_KEY
         generateValue: true
       - key: WEB_CONCURRENCY
         value: 4

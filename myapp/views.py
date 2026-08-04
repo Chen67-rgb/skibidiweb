@@ -37,7 +37,7 @@ def create_task(request):
     if request.method == 'GET':
         return render(request, 'tasks/create_task.html',{
         'form': CreateNewTask()
-    })
+        })
     else:
         Task.objects.create(title=request.POST['title'], description=request.POST['description'], project_id=2)
         return redirect('tasks')

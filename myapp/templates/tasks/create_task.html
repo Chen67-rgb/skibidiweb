@@ -3,8 +3,8 @@
 {% block content %}
 <h1>Create a new tash</h1>
 
-<form method="POST">
-    {% csrf_token  %}
+<form method="POST" action="{% url 'create_task' %}">
+    {% csrf_token %}
     {{form.as_p}}
     <button>
         Save
